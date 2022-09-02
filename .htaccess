@@ -1,0 +1,45 @@
+Options +FollowSymLinks -MultiViews
+
+ErrorDocument 403 /
+ErrorDocument 404 /
+
+ErrorDocument 403 /talent_hiring_Portal/
+ErrorDocument 404 /talent_hiring_Portal/
+
+# Turn mod_rewrite on
+RewriteEngine On
+
+RewriteBase /
+RewriteBase /talent_hiring_Portal/
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.+)\.(\d+)\.(js|css)$ $1.$3 [L]
+
+
+
+# Unless directory, remove trailing slash
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.+)/$ $1 [R=301,L]
+
+# Unless directory, remove .php
+#RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteRule ^jobcircular/([a-zA-Z0-9]+) jobcircular.php?jobkey=$1
+#RewriteRule ^jobcircular/([a-z0-9][a-z0-9-_.]+)/([a-z]+) jobcircular.php?jobkey=$1&id=$2
+
+
+#RewriteRule ^questoin/([a-z0-9][a-z0-9-_.]+)/([a-z]+)/([a-z]+) questoin.php?username=$1&tab=$2&id=$3
+#RewriteRule ^questoin/([a-z0-9][a-z0-9-_.]+)/([a-z]+) questoin.php?username=$1&tab=$2
+#RewriteRule ^questoin/([a-zA-Z0-9]+) questoin.php?id=$1
+
+
+RewriteRule ^index  index.php [NC,L]
+RewriteRule ^jobcircularuploaded  jobcircularuploaded.php [NC,L]
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+
+

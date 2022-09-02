@@ -1,0 +1,337 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+    padding:0;
+    margin:0;
+}
+body
+{
+    background:#e9ebee;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    text-align:center;
+}
+.title-font-size {
+    font-size: 25px;
+}
+.isdisplay{
+    display: none;
+}
+.nav_hide{
+    float: left;
+    position: absolute;
+    top: 50px;
+    z-index: 10;
+}
+.headcontentcontainer{
+    display: block;
+    position: relative;
+    float: left;
+    width: calc(100% - 20px);
+    margin: 10px;
+}
+.bannerimg{
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 210px;
+    margin-bottom: 20px;
+}
+.ourjobs:hover{
+    background-color:#eef0f3;
+}
+.ourjobs{
+    display: block;
+    float: left;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    background-color:#fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.creatingWorkspace{
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+#header
+{
+    background: #5b6162;
+    width: 100%;
+    height: 35px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.circulartitleholder{
+    display: block;
+    position: relative;
+    width: calc(100% - 10px);
+    float: left;
+    margin: 20px 5px 20px 5px;
+}
+.inputfeilcontainer{
+    display: block;
+    position: relative;
+    width: 95%;
+    float: left;
+    margin-left: 4%;
+    margin-right: 1%;
+}
+.ciecularlist{
+    display: block;
+    float: left;
+    width: calc(100% - 20px);
+    position: relative;
+    margin: 10px;
+    /* background-color: #85a0ca; */
+    background-color: #FFFFFF;
+    -webkit-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.jobcircularnameholder{
+    display: block;
+    position: relative;
+    width: calc(100% - 10px);
+    float: left;
+    margin: 15px 5px 0px 5px;
+}
+.jobcircularinfoholder{
+    display: block;
+    position: relative;
+    width: calc(100% - 25px);
+    float: left;
+    margin: 0px 5px 15px 20px;
+}
+.inputfeildholder{
+    display: block;
+    position: relative;
+    width: calc(50% - 10px);
+    float: left;
+    padding: 5px 5px 0px 5px;
+}
+.jobcirculartitleinputfeild{
+    display: block;
+    width: calc(50% - 10px);
+    float: left;
+    position: relative;
+    margin: 3px;
+}
+.inputfeild{
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: 5px;
+}
+.circulartitlemid{
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.circulartitlebottom{
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.inputfeildbottom{
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: 0px 5px 0px 5px;
+}
+.jobnameinputfeild{
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: 5px 5px 10px 5px;
+}
+.inputfeildclass{
+    display: block;
+    padding: 5px;
+}
+.titletext{
+    display: block;
+    float: left;
+    position: relative;
+    width: 185px;
+    margin-right: 10px;
+    text-align: right;
+    margin-top: 7px;
+}
+
+
+.jobnametextfield{
+    display: block;
+    float: left;
+    position: relative;
+    width: calc(100% - 10px);
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    margin-bottom: 5px;
+}
+.textfield{
+    display: block;
+    float: left;
+    position: relative;
+    width: calc(100% - 10px);
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+}
+.englishwod{
+    display: block;
+    float: left;
+    position: relative;
+    width: 200px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+}
+.englishwodmening{
+    display: block;
+    float: left;
+    position: relative;
+    width: calc(100% - 240px);
+    padding: 8px;
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+}
+
+#body
+{
+    margin-top:20px;
+}
+#body table
+{
+    margin:0 auto;
+    position:relative;
+    bottom:50px;
+}
+table td,th
+{
+    padding:20px;
+    border: solid #9fa8b0 1px;
+    border-collapse:collapse;
+}
+
+.circularformholder{
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    background-color: #f5f6f7;
+}
+.circularformcontainer{
+    display: block;
+    /*float: left;*/
+    position: relative;
+    width:800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sendbuttonholder{
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.addmorecircular{
+    display: block;
+    width: calc(100% - 20px);
+    float: left;
+    position: relative;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+}
+.sendbutton{
+    display: block;
+    /*float: right;*/
+    padding: 6px 15px 6px 15px;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+    background-color: #12ac7d;
+    color: #fff;
+    font-size: 18px;
+    border-width: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#ui-datepicker-div{
+    display: none;
+    background-color: #165858;
+    /*width: 200px;*/
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+    border-radius: 5px;
+    top:30px;
+}
+.ui-datepicker-calendar{
+    color: #fff;
+}
+.ui-icon-circle-triangle-e{
+    float: right;
+    cursor: pointer;
+}
+.ui-icon-circle-triangle-w{
+    cursor: pointer;
+    float: left;
+}
+.ui-state-default{
+    color: #fff;
+}
+.ui-datepicker-title{
+    padding: 3px;
+}
+table td, th {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px;
+    border: solid #9fa8b0 0px;
+    border-collapse: collapse;
+}
+
+.card{
+    width: 100%;
+    border: 0px;
+}
+#overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #545b6273;
+}
+
+
+#footer
+{
+    display: block;
+    float: left;
+    width: 100%;
+    text-align:right;
+    position:relative;
+
+}
